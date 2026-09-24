@@ -2,7 +2,11 @@
 
 | # | Arquivo | Descrição | local |
 | - | ------- | --------- | ----- |
-| 1 | HelloWorld.py | Primeiro programa desenvolvido em Python, utilizando a função print() para exibir uma mensagem no terminal. | [Acesser](https://github.com/MuriloAlvesII/Gradus-Unus/blob/main/HelloWorld.py)
+| 1 | `HelloWorld.py` | Primeiro programa desenvolvido em Python, utilizando a função print() para exibir uma mensagem no terminal. | [Acesser](https://github.com/MuriloAlvesII/Gradus-Unus/blob/main/HelloWorld.py)
+| 2 | `Comentarios.py` | Introdução aos comentários em Python | [Acesser](https://github.com/MuriloAlvesII/Gradus-Unus/blob/main/Comentarios.py) |
+<!--
+| 2 | `arquivo` | descricao | [Acesser]() |
+-->
 
 # Materiais de apoio
 
