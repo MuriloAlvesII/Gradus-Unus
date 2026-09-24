@@ -1,7 +1,17 @@
-# Vamos inicia usando uma função nativa do python, chamada de print().
-# Onde e resposavel por aprenta dados para o usuario por meio do terminal.
+'''
+Vamos iniciar utilizando uma função nativa do Python chamada print().
 
-# Para mante a tradição, feita ao se aprende sobre qualque liguagem copuntacional, 
-# iniciaremos com um print("Hello World!").
+A função print() é responsável por exibir dados para o usuário por meio do terminal. 
+Os dados que desejamos apresentar são informados dentro dos parênteses da função.
+
+Para manter a tradição presente no aprendizado de diversas linguagens de programação, 
+iniciaremos com o clássico:
+
+    print("Hello World!")
+
+Ao executar o programa, o terminal exibirá:
+
+    Hello World!
+'''
 
 print("Hello World!")
