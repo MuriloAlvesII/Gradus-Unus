@@ -4,7 +4,7 @@
 | - | ------- | --------- | ----- |
 | 1 | HelloWorld.py | Primeiro programa desenvolvido em Python, utilizando a função print() para exibir uma mensagem no terminal. | [Acesser](https://github.com/MuriloAlvesII/Gradus-Unus/blob/main/HelloWorld.py)
 
-# Matérias de apoio
+# Materiais de apoio
 
 Materiais utilizados como apoio durante os estudos deste Gradus.
 
