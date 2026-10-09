@@ -14,7 +14,7 @@
 
 Materiais utilizados como apoio durante os estudos deste Gradus.
 
-## Documentação
+## 1.Documentação
 
 - [Tutorial Python — Introdução](https://docs.python.org/pt-br/3/tutorial/introduction.html)
 - [Built-in Types](https://docs.python.org/pt-br/3/library/stdtypes.html)
@@ -29,4 +29,4 @@ Materiais utilizados como apoio durante os estudos deste Gradus.
 <!-- - [Proximo Gradus]() -->
 
 > Update V0.7
-<!-- Update V0. README.md -->
+<!-- "Update V0.8 README.md" -->
