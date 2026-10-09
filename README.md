@@ -2,10 +2,10 @@
 
 | # | Arquivo | Descrição | local |
 | - | ------- | --------- | ----- |
-| 1 | `HelloWorld.py` | Primeiro programa desenvolvido em Python, utilizando a função print() para exibir uma mensagem no terminal. | [Acessar](./src/HelloWorld.py) |
+| 1 | `HelloWorld.py` | Introdução ao Python e à função nativa `print()`. | [Acessar](./src/HelloWorld.py) |
 | 2 | `Comentarios.py` | Introdução aos comentários em Python. | [Acessar](./src/Comentarios.py) |
 | 3 | `Variaveis.py` | Variáveis, atribuição de valores, múltiplas atribuições e regras para nomenclatura de identificadores. | [Acessar](./src/Variaveis.py) |
-| 4 | `Strings.py` | Fundamentos de strings, manipulação, imutabilidade e formatação | [Acessar](./src/Strings.py) |
+| 4 | `Strings.py` | Fundamentos de strings, manipulação, imutabilidade e formatação. | [Acessar](./src/Strings.py) |
 <!--
 | 5 | `arquivo` | descricao | [Acessar]() |
 -->
@@ -14,7 +14,7 @@
 
 Materiais utilizados como apoio durante os estudos deste Gradus.
 
-## 1.Documentação
+## 1. Documentação
 
 - [Tutorial Python — Introdução](https://docs.python.org/pt-br/3/tutorial/introduction.html)
 - [Built-in Types](https://docs.python.org/pt-br/3/library/stdtypes.html)
