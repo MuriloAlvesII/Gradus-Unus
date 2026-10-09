@@ -30,28 +30,28 @@ STRINGS (SIGNA)
 # Ex. 1: 
 # Uma variável pode ser associada a um objeto do tipo str. 
 nome = "Dragon" 
-print("Ex. 1:\n", nome) 
+print("Ex. 1:\n", nome,"\n") 
 
 # Ex. 2:
 # Strings podem ser delimitadas utilizando aspas duplas ou aspas simples. 
 nome_a = "Jhon" # String delimitada por aspas duplas. 
 nome_b = 'Riquelmy' # String delimitada por aspas simples. 
 print("Ex. 2:\n", nome_a) 
-print(nome_b) 
+print(nome_b,"\n") 
 
 # Ex. 3:
 # Uma string não precisa possuir caracteres.
 # Uma string vazia também é um objeto do tipo str.
 texto = "" 
 print("Ex. 3:\n", texto) 
-print(len(texto))
+print(len(texto),"\n")
 
 # Ex. 4:
 # Também podemos criar strings que ocupam múltiplas linhas. 
 texto = """Texto: 
 Em múltiplas linhas do código. 
 Tchau!!""" 
-print("Ex. 4:\n", texto)
+print("Ex. 4:\n", texto,"\n")
 
 # Ex. 5:
 # Sequências de escape são utilizadas para representar caracteres
@@ -73,21 +73,21 @@ print(texto_2)
 texto_3 = "Ela disse \"oi\"" 
 # Também podemos utilizar uma sequência de escape para representar
 # # aspas duplas dentro de uma string delimitada por aspas duplas.
-print(texto_3)
+print(texto_3,"\n")
 
 # Ex. 6:
 # Concatenação de strings.
 # A concatenação consiste em unir duas ou mais strings,
 # formando uma nova string.
 frase = "Olá, " + nome
-print("Ex. 6:\n", frase) 
+print("Ex. 6:\n", frase,"\n") 
 
 # Ex. 7:
 # Repetição de uma string.
 # O operador * pode ser utilizado para criar várias repetições
 # de uma mesma string.
 texto = "Python " * 5 
-print("Ex. 7:\n", texto) 
+print("Ex. 7:\n", texto,"\n") 
 
 # Ex. 8:
 # Índices e fatiamento de strings.
@@ -98,7 +98,7 @@ print("Ex. 8:\n", texto) # O fatiamento permite obter uma parte da string.
 
 # Neste exemplo, serão obtidos os caracteres dos índices 0 e 1.
 letras = nome_a[0:2]
-print(letras) 
+print(letras,"\n") 
 
 # Ex. 9:
 # A função len() retorna a quantidade de elementos de um objeto.
@@ -106,13 +106,13 @@ print(letras)
 
 # No caso de uma string, ela retorna a quantidade de caracteres.
 quantidade = len(letras)
-print("Ex. 9:\n", quantidade) 
+print("Ex. 9:\n", quantidade,"\n") 
 
 # Ex. 10:
 # Os operadores in e not in verificam se determinado valor está
 # presente ou não em uma sequência.
 print("Ex. 10:\n", ("J" in nome_a)) # Verifica se o caractere "J" está presente em nome_a.
-print("J" not in nome_b) # Verifica se o caractere "J" não está presente em nome_b.
+print(("J" not in nome_b),"\n") # Verifica se o caractere "J" não está presente em nome_b.
 
 # Ex. 11:
 # Métodos comuns utilizados para manipulação de strings.
@@ -120,12 +120,12 @@ print("Ex. 11:\n", (frase.upper())) # upper() retorna uma nova string com os car
 print(frase.lower()) # lower() retorna uma nova string com os caracteres em minúsculas.
 
 texto = " Oi com muito espaço no final " 
-print(texto.strip()) # strip() remove espaços em branco do início e do final da string.
+print(texto.strip(),"\n") # strip() remove espaços em branco do início e do final da string.
 
 # Ex. 12:
 # O método replace() substitui uma parte da string por outra.
 nova_frase = frase.replace(nome, nome_a)
-print("Ex. 12:\n", nova_frase)
+print("Ex. 12:\n", nova_frase,"\n")
 
 # Ex. 13:
 # Os métodos split() e join() podem ser utilizados em conjunto
@@ -136,7 +136,7 @@ nova_frase = frase.split(",")
 print("Ex. 13:\n", nova_frase)
 
 frase_original = ",".join(nova_frase)
-print(frase_original)
+print(frase_original,"\n")
 
 # Ex. 14:
 # Strings são imutáveis.
@@ -148,7 +148,7 @@ texto.upper()
 print("Ex. 14:\n", texto) # O resultado continua sendo "Python".
 
 texto = texto.upper()
-print(texto) # Agora a variável texto recebeu a nova string "PYTHON".
+print(texto,"\n") # Agora a variável texto recebeu a nova string "PYTHON".
 
 # Ex. 15:
 # Formatação de strings.
