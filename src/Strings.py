@@ -30,20 +30,20 @@ STRINGS (SIGNA)
 # Ex. 1: 
 # Uma variável pode ser associada a um objeto do tipo str. 
 nome = "Dragon" 
-print(nome) 
+print("Ex. 1:\n", nome) 
 
 # Ex. 2:
 # Strings podem ser delimitadas utilizando aspas duplas ou aspas simples. 
 nome_a = "Jhon" # String delimitada por aspas duplas. 
 nome_b = 'Riquelmy' # String delimitada por aspas simples. 
-print(nome_a) 
+print("Ex. 2:\n", nome_a) 
 print(nome_b) 
 
 # Ex. 3:
 # Uma string não precisa possuir caracteres.
 # Uma string vazia também é um objeto do tipo str.
 texto = "" 
-print(texto) 
+print("Ex. 3:\n", texto) 
 print(len(texto))
 
 # Ex. 4:
@@ -51,13 +51,13 @@ print(len(texto))
 texto = """Texto: 
 Em múltiplas linhas do código. 
 Tchau!!""" 
-print(texto)
+print("Ex. 4:\n", texto)
 
 # Ex. 5:
 # Sequências de escape são utilizadas para representar caracteres
 # especiais dentro de uma string.
 texto = "Quebra\nde linha." # \n representa uma quebra de linha.
-print(texto) 
+print("Ex. 5:\n", texto) 
 
 texto_0 = "Uma sequência de escape\tque representa um tab." # \t representa uma tabulação.
 print(texto_0)
@@ -80,21 +80,21 @@ print(texto_3)
 # A concatenação consiste em unir duas ou mais strings,
 # formando uma nova string.
 frase = "Olá, " + nome
-print(frase) 
+print("Ex. 6:\n", frase) 
 
 # Ex. 7:
 # Repetição de uma string.
 # O operador * pode ser utilizado para criar várias repetições
 # de uma mesma string.
 texto = "Python " * 5 
-print(texto) 
+print("Ex. 7:\n", texto) 
 
 # Ex. 8:
 # Índices e fatiamento de strings.
 # Cada caractere de uma string possui uma posição, chamada de índice.
 # A contagem dos índices começa em 0. 
 texto = nome_a[0] 
-print(texto) # O fatiamento permite obter uma parte da string.
+print("Ex. 8:\n", texto) # O fatiamento permite obter uma parte da string.
 
 # Neste exemplo, serão obtidos os caracteres dos índices 0 e 1.
 letras = nome_a[0:2]
@@ -106,17 +106,17 @@ print(letras)
 
 # No caso de uma string, ela retorna a quantidade de caracteres.
 quantidade = len(letras)
-print(quantidade) 
+print("Ex. 9:\n", quantidade) 
 
 # Ex. 10:
 # Os operadores in e not in verificam se determinado valor está
 # presente ou não em uma sequência.
-print("J" in nome_a) # Verifica se o caractere "J" está presente em nome_a.
+print("Ex. 10:\n", ("J" in nome_a)) # Verifica se o caractere "J" está presente em nome_a.
 print("J" not in nome_b) # Verifica se o caractere "J" não está presente em nome_b.
 
 # Ex. 11:
 # Métodos comuns utilizados para manipulação de strings.
-print(frase.upper()) # upper() retorna uma nova string com os caracteres em maiúsculas.
+print("Ex. 11:\n", (frase.upper())) # upper() retorna uma nova string com os caracteres em maiúsculas.
 print(frase.lower()) # lower() retorna uma nova string com os caracteres em minúsculas.
 
 texto = " Oi com muito espaço no final " 
@@ -125,7 +125,7 @@ print(texto.strip()) # strip() remove espaços em branco do início e do final d
 # Ex. 12:
 # O método replace() substitui uma parte da string por outra.
 nova_frase = frase.replace(nome, nome_a)
-print(nova_frase)
+print("Ex. 12:\n", nova_frase)
 
 # Ex. 13:
 # Os métodos split() e join() podem ser utilizados em conjunto
@@ -133,7 +133,7 @@ print(nova_frase)
 # split() divide uma string em uma lista utilizando um delimitador.
 # join() une os elementos de uma sequência utilizando um delimitador.
 nova_frase = frase.split(",")
-print(nova_frase)
+print("Ex. 13:\n", nova_frase)
 
 frase_original = ",".join(nova_frase)
 print(frase_original)
@@ -145,7 +145,7 @@ print(frase_original)
 # Eles retornam uma nova string.
 texto = "Python"
 texto.upper()
-print(texto) # O resultado continua sendo "Python".
+print("Ex. 14:\n", texto) # O resultado continua sendo "Python".
 
 texto = texto.upper()
 print(texto) # Agora a variável texto recebeu a nova string "PYTHON".
@@ -158,7 +158,7 @@ print(texto) # Agora a variável texto recebeu a nova string "PYTHON".
 # 2. Método format()
 # 3. F-string
 altura = 1.78 
-print("Meu nome é %s e minha altura é de %.2f metros" % (nome, altura)) # Forma antiga de formatação.
+print("Ex. 15:\nMeu nome é %s e minha altura é de %.2f metros" % (nome, altura)) # Forma antiga de formatação.
 
 print("Meu nome é {} e minha altura é de {:.2f} metros".format(nome, altura)) 
 # Formatação utilizando o método format().
