@@ -19,6 +19,10 @@ Materiais utilizados como apoio durante os estudos deste Gradus.
 - [Tutorial Python — Introdução](https://docs.python.org/pt-br/3/tutorial/introduction.html)
 - [Built-in Types](https://docs.python.org/pt-br/3/library/stdtypes.html)
 
+## 2. Recursos complementares
+
+- [Python-Init — Notion](https://star-faucet-dad.notion.site/Python-Init-3f4e2d698b898088812ffd0badedc692) — Registro e acompanhamento dos estudos de Python.
+
 # Autor
 
 - [@MuriloAlvesII](https://github.com/MuriloAlvesII)
