@@ -21,7 +21,7 @@ Materiais utilizados como apoio durante os estudos deste Gradus.
 
 ## 2. Recursos complementares
 
-- [Python-Init — Notion](https://star-faucet-dad.notion.site/Python-Init-3f4e2d698b898088812ffd0badedc692) — Registro e acompanhamento dos estudos de Python.
+- [Gradus-Unus — Notion](https://app.notion.com/p/Gradus-Unus-Fundamentos-de-Python-3f4e2d698b8981aba33ffb1bfa1f047e?source=copy_link) — Registro e acompanhamento dos estudos de Python.
 
 # Autor
 
